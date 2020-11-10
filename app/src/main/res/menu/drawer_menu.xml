@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/newFile"
+            android:title="@string/new_file" />
+        <item
+            android:id="@+id/openFile"
+            android:title="@string/open_file" />
+
+        <item
+            android:id="@+id/suggest"
+            android:title="@string/suggest_a_feature" />
+        <item
+            android:id="@+id/rateUs"
+            android:title="@string/rate_us" />
+    </group>
+</menu>

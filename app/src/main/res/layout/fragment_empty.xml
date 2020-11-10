@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/createFile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button"
+            android:text="New File"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/openFile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/createFile"
+            android:background="@drawable/button"
+            android:text="Open File"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+    </RelativeLayout>
+</RelativeLayout>

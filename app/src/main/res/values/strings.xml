@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MultipleFileViewer</string>
+    <string name="navigation_open">Open Navigation</string>
+    <string name="navigation_close">Close Navigation</string>
+    <string name="new_file">New File</string>
+    <string name="open_file">Open File</string>
+    <string name="open_folder">Open Folder</string>
+    <string name="open_another_file">Open Another File Here</string>
+    <string name="suggest_a_feature">Suggest a Feature</string>
+    <string name="rate_us">Rate Us</string>
+</resources>
